@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title>UBC Development</title>
+  <link rel="stylesheet" href="Style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,300;1,100;1,200;1,400;1,700&family=Josefin+Sans:ital,wght@0,100;0,300;0,400;1,100&family=Roboto+Slab:wght@100;300;500&family=Saira+Condensed:wght@100;300;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"> <img src="image/Logo3.png" </a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li> <a href="index.html">HOME</a> </li>
+            <li> <a href="BestPlaces.html">BEST PLACES</a> </li>
+            <li> <a href="Services.html">SERVICES</a> </li>
+            <li> <a href="Aboutus.html">BOOKING</a> </li>
+            <li> <a href="Contactus.html">CONTACTS</a> </li>
+          </ul>
+
+      </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Best Places</h1>
+  </section>
+
+
+
+<!-- -------------------Best Places--------------->
+
+<section class="BestPlaces">
+  <h1>Top Destinations</h1>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, maxime, architecto laboriosam inventore ad neque provident excepturi autem non cumque quia eveniet dolorem! Aliquid, rem nobis dignissimos repellendus soluta voluptas!</p>
+
+  <div class="row">
+    <div class="top10">
+      <img src="Image\top1.jpg">
+        <div class="layer">
+          <h3>Paris</h3>
+        </div>
+        
+      </div>
+      <div class="top10">
+        <img src="Image\top2.jpg">
+          <div class="layer">
+            <h3>London</h3>
+          </div>
+          
+        </div>
+        <div class="top10">
+          <img src="Image\top3.jpg">
+            <div class="layer">
+              <h3>Hawaii</h3>
+            </div>
+            
+          </div>
+    </div>
+  </div>
+</section>
+
+<!-- -----------------Booking---------->
+<section class="Booking">
+  <h1>Booking</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate minus nemo quibusdam illo dolor est facere expedita officiis in inventore error provident earum quasi, quis repellendus laborum natus, perspiciatis et.</p>
+
+  <div class="row">
+    <div class="booking-col">
+      <img src="Image/Booking2.jpg">
+      <h3>Air Lines</h3>
+      <p>Book your air lines</p>
+    </div>
+
+    <div class="booking-col">
+      <img src="Image/Hotels2.jpg">
+      <h3>Hotels</h3>
+      <p>Book Most suitable Hotels</p>
+    </div>
+
+    <div class="booking-col">
+      <img src="Image/Travel2.jpg">
+      <h3>Other Travellings</h3>
+      <p>All other travellings</p>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- --------------Footer.........-->
+
+<section class="footer">
+  <h4>About us</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia minima molestiae, itaque eos velit dolorem dolorum possimus magnam sit obcaecati, <br> optio quaerat perspiciatis quisquam omnis, aliquam vero alias rem maiores?</p>
+
+<div class="icons">
+  <i class="fa fa-facebook-official" aria-hidden="true"></i>
+  <i class="fa fa-twitter" aria-hidden="true"></i>
+  <i class="fa fa-instagram" aria-hidden="true"></i>
+  <i class="fa fa-linkedin" aria-hidden="true"></i>
+
+</div>
+<p>made with by DJ <i class="fa fa-heart-o"></i></p>
+
+</section>
+
+  <!-- -----------Javascript for toggle menu----------- -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+
+  </script>
+
+
+</body>
+
+
+
+
+
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title>UBC Development</title>
+  <link rel="stylesheet" href="Style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,300;1,100;1,200;1,400;1,700&family=Josefin+Sans:ital,wght@0,100;0,300;0,400;1,100&family=Roboto+Slab:wght@100;300;500&family=Saira+Condensed:wght@100;300;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <section class="services">
+    <nav>
+      <a href="index.html"> <img src="image/Logo3.png" </a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li> <a href="index.html">HOME</a> </li>
+            <li> <a href="BestPlaces.html">BEST PLACES</a> </li>
+            <li> <a href="Services.html">SERVICES</a> </li>
+            <li> <a href="Aboutus.html">BOOKING</a> </li>
+            <li> <a href="Contactus.html">CONTACTS</a> </li>
+          </ul>
+
+      </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Services</h1>
+
+  </section>
+
+<!-- --------------Services.........-->
+<section class="service-details">
+  <div class="row">
+    <div class="blog-left">
+      <img src="Image/services2.jpg">
+      <h2>Way you want to go</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur praesentium molestias facere nulla dicta deleniti accusantium vel! Expedita, pariatur reprehenderit? Sunt eligendi quidem ea porro. Nam eos quisquam tenetur rem! <br> ipsum dolor sit amet consectetur adipisicing elit. Inventore itaque libero eius, minus hic dolore id adipisci quidem expedita beatae in. Explicabo maiores vero facilis enim officia praesentium soluta quos?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat expedita placeat nesciunt! Dicta veritatis accusamus, animi culpa iste alias dolore ad excepturi quisquam ipsam in quod dolorum recusandae, adipisci pariatur.</p>
+
+      <div class="comment-box">
+        <h3>Leave a comment</h3>
+          <form class="comment-from">
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter Email">
+            <textarea rows="5" placeholder=" Your Comment"></textarea>
+            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+          </form>
+      </div>
+    </div>
+
+
+
+    <div class="blog-right">
+      <h3>Trour with us more details</h3>
+      <div>
+        <span>London Tour details</span>
+        <span>21</span>
+      </div>
+      <div>
+        <span>Australia Tour details</span>
+        <span>24</span>
+      </div>
+      <div>
+        <span>France Tour details</span>
+        <span>32</span>
+      </div>
+      <div>
+        <span>US Tour details</span>
+        <span>45</span>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- --------------Footer.........-->
+
+<section class="footer">
+  <h4>About us</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia minima molestiae, itaque eos velit dolorem dolorum possimus magnam sit obcaecati, <br> optio quaerat perspiciatis quisquam omnis, aliquam vero alias rem maiores?</p>
+
+<div class="icons">
+  <i class="fa fa-facebook-official" aria-hidden="true"></i>
+  <i class="fa fa-twitter" aria-hidden="true"></i>
+  <i class="fa fa-instagram" aria-hidden="true"></i>
+  <i class="fa fa-linkedin" aria-hidden="true"></i>
+
+</div>
+<p>made with by DJ <i class="fa fa-heart-o"></i></p>
+
+</section>
+
+  <!-- -----------Javascript for toggle menu----------- -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+
+  </script>
+
+
+</body>
+
+
+
+
+
+</html>
